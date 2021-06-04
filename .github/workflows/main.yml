@@ -35,8 +35,6 @@ jobs:
 
      - name: Build Next.js app
        run: npm run build
-       env:
-         URL_PREFIX: linlin2525
 
      - name: Export Next.js app
        run: npm run export
